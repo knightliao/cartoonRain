@@ -27,7 +27,7 @@ DX9来实现，没有SHADER代码，在RELEASE下可达到一千多帧的速度�
 
 ## 开发人员指南 ##
 
-详细设计
+[详细设计](https://github.com/knightliao/CartoonRain/wiki/%E8%AF%A6%E7%BB%86%E8%AE%BE%E8%AE%A1)
 
 ## 缺陷 ##
 

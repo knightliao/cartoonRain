@@ -11,6 +11,7 @@ Cartoon Rain implementation using DX9
 
 ## 项目信息 ##
 
+- C++
 - VS2012
 - DirectX9
 

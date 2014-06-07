@@ -80,7 +80,7 @@ bool CRain::InitializeParticleSystem(IDirect3DDevice9* device,float disapper,
 	hr = D3DXCreateTextureFromFile(
 		device,
 	//	"lake.bmp",
-		"drop.png",
+		"res/drop.png",
 		&m_Drop);
 
 	if(FAILED(hr))

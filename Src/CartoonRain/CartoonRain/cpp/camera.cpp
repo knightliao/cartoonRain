@@ -28,7 +28,7 @@ completed with DX9
 */
 
 
-#include "camera.h"
+#include "..\headers\camera.h"
 
 Camera::Camera()
 {

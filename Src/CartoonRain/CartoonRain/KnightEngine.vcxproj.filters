@@ -15,31 +15,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="camera.cpp">
+    <ClInclude Include="headers\AllInclude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\d3d9Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\rain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cpp\camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CartoonRain.cpp">
+    <ClCompile Include="cpp\CartoonRain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="d3d9Utility.cpp">
+    <ClCompile Include="cpp\d3d9Utility.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="rain.cpp">
+    <ClCompile Include="cpp\rain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AllInclude.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="camera.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="d3d9Utility.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="rain.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <Image Include="res\desert.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\drop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

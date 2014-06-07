@@ -27,12 +27,12 @@ This program is completed with DX9
 */
 
 
-#include "d3d9Utility.h"
-#include "camera.h"
+#include "..\headers\d3d9Utility.h"
+#include "..\headers\camera.h"
 #include <cstdlib>
 #include <ctime>
-#include "rain.h"
-#include "AllInclude.h"
+#include "..\headers\rain.h"
+#include "..\headers\AllInclude.h"
 
 
 #pragma comment(lib, "d3d9.lib")

@@ -28,7 +28,7 @@ completed with DX9
 */
 
 
-#include "d3d9Utility.h"
+#include "..\headers\d3d9Utility.h"
 
 
 

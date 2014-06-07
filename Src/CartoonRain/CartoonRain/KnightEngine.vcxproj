@@ -88,16 +88,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="camera.cpp" />
-    <ClCompile Include="CartoonRain.cpp" />
-    <ClCompile Include="d3d9Utility.cpp" />
-    <ClCompile Include="rain.cpp" />
+    <ClInclude Include="headers\AllInclude.h" />
+    <ClInclude Include="headers\camera.h" />
+    <ClInclude Include="headers\d3d9Utility.h" />
+    <ClInclude Include="headers\rain.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AllInclude.h" />
-    <ClInclude Include="camera.h" />
-    <ClInclude Include="d3d9Utility.h" />
-    <ClInclude Include="rain.h" />
+    <ClCompile Include="cpp\camera.cpp" />
+    <ClCompile Include="cpp\CartoonRain.cpp" />
+    <ClCompile Include="cpp\d3d9Utility.cpp" />
+    <ClCompile Include="cpp\rain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\desert.bmp" />
+    <Image Include="res\drop.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

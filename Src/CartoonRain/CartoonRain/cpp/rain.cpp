@@ -29,8 +29,8 @@ This program is completed with DX9
 
 
 
-#include "rain.h"
-#include "AllInclude.h"
+#include "..\headers\rain.h"
+#include "..\headers\AllInclude.h"
 
 #define MAX_PARTICLES   1600
 #define ADD_PARTICLES_EACH_FRAME  5			// 每一帧加入2个雨滴

@@ -27,9 +27,9 @@
 
 
 // 载入数学库 -----------------------------------------------------------------------
-#include "../KnightMath/KnightMath.h"
-#include "../KnightMath/VectorR2.h"
-#include "../KnightMath/VectorR3.h"
+#include "../../KnightMath/KnightMath.h"
+#include "../../KnightMath/VectorR2.h"
+#include "../../KnightMath/VectorR3.h"
 
 #ifdef _DEBUG
 #pragma comment(lib, "../KnightMath/d_lib/KnightMath.lib")
@@ -39,7 +39,7 @@
 //-----------------------------------------------------------------------------------
 
 // 载入调试库 -----------------------------------------------------------------------
-#include "../KnightTrace/Knight_Trace.h"
+#include "../../KnightTrace/Knight_Trace.h"
 
 #ifdef _DEBUG
 #pragma comment(lib, "../KnightTrace/d_lib/KnightTrace.lib")

@@ -32,9 +32,9 @@
 #include "../KnightMath/VectorR3.h"
 
 #ifdef _DEBUG
-#pragma comment(lib, "../KnightMath/debug/KnightMath.lib")
+#pragma comment(lib, "../KnightMath/d_lib/KnightMath.lib")
 #else
-#pragma comment(lib, "../KnightMath/release/KnightMath.lib")
+#pragma comment(lib, "../KnightMath/r_lib/KnightMath.lib")
 #endif
 //-----------------------------------------------------------------------------------
 
@@ -42,9 +42,9 @@
 #include "../KnightTrace/Knight_Trace.h"
 
 #ifdef _DEBUG
-#pragma comment(lib, "../KnightTrace/debug/KnightTrace.lib")
+#pragma comment(lib, "../KnightTrace/d_lib/KnightTrace.lib")
 #else
-#pragma comment(lib, "../KnightTrace/release/KnightTrace.lib")
+#pragma comment(lib, "../KnightTrace/r_lib/KnightTrace.lib")
 #endif
 //-----------------------------------------------------------------------------------
 

@@ -22,7 +22,7 @@ DX9来实现，没有SHADER代码，在RELEASE下可达到一千多帧的速度�
 代码需要两个库文件的支持(这两个库文件都是我实现的) 
 
 - [KnightMath.lib](https://github.com/knightliao/cg-math)(数学库)
-- KnightTrace.lib(调试库)
+- [KnightTrace.lib](https://github.com/knightliao/knight-trace)(调试库)
 
 发布程序库时需要同时发布这两个库文件还有头文件。（库文件里其实就是CPP实现）
 
